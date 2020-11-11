@@ -3,14 +3,13 @@ As this whole project is all about Artificial Intelligence assistant(ULTRON), Yo
 NOTE - As the AI was built on macintosh machine you will come across some path errors, and to adjust according to your machine you need to adjust it.
 NOTE - Do note that, For opening applications you need to adjust :-
 
-     # Ultron Open applications Function
+#Ultron Open applications Function
 def is_valid_open_launch(open_launch_dict, voice_note):
-    for key, value in open_launch_dict.items():
-        if value == voice_note.split(' ')[0]:
-            return True
-        break
-
-    return False
+for key, value in open_launch_dict.items():
+if value == voice_note.split(' ')[0]:
+return True
+break
+return False
 
 To begin with list of commands we have:
 1. ['Hello', 'Hi'] for greeting ULTRON.
